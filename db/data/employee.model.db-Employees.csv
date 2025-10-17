@@ -1,0 +1,5 @@
+ID,firstName,lastName,address,mobile,salary,email
+a3dcbf68-51b3-4d80-b2a3-c9cbde1d889e,John,Doe,"123 Maple St, Springfield, IL",+13175551234,65000.00,john.doe@example.com,
+7e6cf7be-b8dc-457e-bf8e-81b49640a125,Jane,Smith,"456 Oak Ave, Denver, CO",+13035557890,72000.50,jane.smith@example.com,
+c93a2a5e-1e45-498b-b187-11cfb18c45b3,Mike,Johnson,"789 Pine Rd, Austin, TX",+15125553421,58250.75,mike.johnson@example.com,
+1b730e29-024d-47c0-b5c2-1b712d8c2d7f,Susan,Brown,"321 Birch Ln, Seattle, WA",+12065559876,90000.00,susan.brown@example.com,

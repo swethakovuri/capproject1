@@ -1,0 +1,56 @@
+###Reading employee details
+GET http://localhost:4004/odata/v4/employee-odata/Employee
+
+### Creating record in employee table
+POST http://localhost:4004/odata/v4/employee-odata/Employee
+Content-Type: application/json
+
+{
+  "firstName": "Sweetyrao3",
+  "lastName": "Lee",
+  "address": "789 Pine Rd, Austin, TX",
+  "mobile": "+15125554321",
+  "email": "michael.lee@example.com",
+  "createdAt": "2025-09-12T12:24:41.999Z",
+  "createdBy": "anonymous",
+  "modifiedAt": "2025-09-12T12:24:41.999Z",
+  "modifiedBy": "anonymous",
+  "designation": "Data Analyst",
+  "salary" : 64644.00,
+  "familyMembers": [{
+  "firstName": "John",
+  "lastName": "Brown",
+  "address": "123 Main Street, Springfield, IL",
+  "mobile": "+1-555-123-4",
+  "salary": 50000.00,
+  "email": "john.doe@example.com",
+  "createdAt": "2025-09-17T10:00:00Z",
+  "createdBy": "admin",
+  "modifiedAt": "2025-09-17T10:00:00Z",
+  "modifiedBy": "admin",
+  "relationShip": "Father"
+}, {
+  "firstName": "John1",
+  "lastName": "Brown",
+  "address": "123 Main Street, Springfield, IL",
+  "mobile": "+1-555-123-4",
+  "salary": 50000.00,
+  "email": "john.doe@example.com",
+  "createdAt": "2025-09-17T10:00:00Z",
+  "createdBy": "admin",
+  "modifiedAt": "2025-09-17T10:00:00Z",
+  "modifiedBy": "admin",
+  "relationShip": "Mother"
+}
+]
+
+  
+}
+
+### update record in employee table
+PATCH http://localhost:4004/odata/v4/employee-odata/Employee(ID='1b730e29-024d-47c0-b5c2-1b712d8c2d7f')
+Content-Type: application/json
+
+{
+  "lastName": "Jackson"
+}
