@@ -8,7 +8,7 @@ service EmployeeOdataService{
    entity Designation as projection on dataModel.Designations;
    entity Status as projection on dataModel.Status;
    // entity FamilyMembers as projection on dataModel.FamilyMembers;
-   
+   @readonly
     
         
     
